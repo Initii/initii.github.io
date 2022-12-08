@@ -48,7 +48,7 @@ function body_loaded() {
 
     function onResize(){
         arToolkitSource.onResizeElement();
-        arToolkitSource.copyElementSizeTo(render.domElement);
+        arToolkitSource.copyElementSizeTo(renderer.domElement);
         if (arToolkitContext.arController !== null) {
             arToolkitSource.copyElementSizeTo(arToolkitContext.arController.canvas);
         }
