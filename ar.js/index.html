@@ -1,9 +1,18 @@
 <!DOCTYPE html>
     <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
         <meta charset="utf-8">
-        <title>Initii's Github</title>
+
+        <script src="./libs/three.min.js"></script>
+        <script src="./libs/ar-threex.js"></script>
+        <script>THREEx.ArToolkitContext.baseURL="./"</script>
+        <script src="./scene.js"></script>
+        
+        <link rel="stylesheet" href="./style.css">
     </head>
-    <body>
-        hello
+    <body onload="body_loaded()">
+        <div class="arjs-loader">
+            <div class="arjs-loader-spinner"></div>
+        </div>
     </body>
 </html>
