@@ -110,5 +110,6 @@ function body_loaded() {
         }
 
         requestAnimationFrame(animate);
+        console.log("TEST");
     });
 }
